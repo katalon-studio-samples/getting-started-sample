@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+5. Planning test cases in a test suite 2,,,2018-12-02 11:14:44,2018-12-02 11:14:47,3.333s,FAILED
+,,,,,,
+Test Cases/3. Verification in the test case,,,2018-12-02 11:14:44,2018-12-02 11:14:46,2.132s,FAILED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",,,2018-12-02 11:14:45,2018-12-02 11:14:46,1.390s,FAILED
+,,,,,,
+Test Cases/4. Debug the test case,,,2018-12-02 11:14:46,2018-12-02 11:14:47,0.492s,FAILED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",,,2018-12-02 11:14:47,2018-12-02 11:14:47,0.008s,FAILED

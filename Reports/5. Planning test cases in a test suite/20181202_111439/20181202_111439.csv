@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+5. Planning test cases in a test suite,Chrome 70.0.3538.110,,2018-12-02 11:14:43,2018-12-02 11:15:03,19.464s,PASSED
+,,,,,,
+Test Cases/2. First test case - Katalon Studio,Chrome 70.0.3538.110,,2018-12-02 11:14:44,2018-12-02 11:14:55,11.429s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 70.0.3538.110,,2018-12-02 11:14:45,2018-12-02 11:14:53,8.453s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 70.0.3538.110,,2018-12-02 11:14:53,2018-12-02 11:14:54,0.583s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 70.0.3538.110,,2018-12-02 11:14:54,2018-12-02 11:14:54,0.265s,PASSED
+"setEncryptedText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 70.0.3538.110,,2018-12-02 11:14:54,2018-12-02 11:14:54,0.261s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Chrome 70.0.3538.110,,2018-12-02 11:14:54,2018-12-02 11:14:55,0.893s,PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-02 11:14:55,2018-12-02 11:14:55,0.279s,PASSED
+,,,,,,
+Test Cases/3. Verification in the test case,Chrome 70.0.3538.110,,2018-12-02 11:14:55,2018-12-02 11:15:03,7.408s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 70.0.3538.110,,2018-12-02 11:14:55,2018-12-02 11:15:01,5.185s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 70.0.3538.110,,2018-12-02 11:15:01,2018-12-02 11:15:01,0.502s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 70.0.3538.110,,2018-12-02 11:15:01,2018-12-02 11:15:01,0.210s,PASSED
+"setEncryptedText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 70.0.3538.110,,2018-12-02 11:15:01,2018-12-02 11:15:02,0.186s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Chrome 70.0.3538.110,,2018-12-02 11:15:02,2018-12-02 11:15:02,0.766s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Make Appointment""), ""Make Appointment"", STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-02 11:15:02,2018-12-02 11:15:02,0.104s,PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-02 11:15:02,2018-12-02 11:15:03,0.205s,PASSED

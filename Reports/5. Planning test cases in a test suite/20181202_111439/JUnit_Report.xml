@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="5. Planning test cases in a test suite" time="19" tests="2" failures="0" errors="0">
+   <testsuite name="5. Planning test cases in a test suite" tests="2" failures="0" errors="0" time="19" timestamp="2018-12-02 11:14:43" hostname="dungngo.mac - 192.168.1.3" id="Test Suites/5. Planning test cases in a test suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/dungngo.mac/Katalon Studio/Getting Started Sample/Reports/5. Planning test cases in a test suite/20181202_111439"/>
+         <property name="logFiles" value="/Users/dungngo.mac/Katalon Studio/Getting Started Sample/Reports/5. Planning test cases in a test suite/20181202_111439/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dungngo.mac - 192.168.1.3"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="sessionId" value="4e5e1b76710577c8b5cac0694fb2b778"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/2. First test case - Katalon Studio" classname="Test Cases/2. First test case - Katalon Studio" status="PASSED">
+         <system-out><![CDATA[2018-12-02 11:14:44 - [TEST_CASE][PASSED] - Test Cases/2. First test case - Katalon Studio: Test Cases/2. First test case - Katalon Studio
+
+2018-12-02 11:14:45 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2018-12-02 11:14:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-02 11:14:46 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-02 11:14:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2018-12-02 11:14:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-12-02 11:14:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-12-02 11:14:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2018-12-02 11:14:54 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2018-12-02 11:14:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2018-12-02 11:14:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2018-12-02 11:14:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-12-02 11:14:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-12-02 11:14:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-02 11:14:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3. Verification in the test case" classname="Test Cases/3. Verification in the test case" status="PASSED">
+         <system-out><![CDATA[2018-12-02 11:14:55 - [TEST_CASE][PASSED] - Test Cases/3. Verification in the test case: Test Cases/3. Verification in the test case
+
+2018-12-02 11:14:55 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2018-12-02 11:14:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-02 11:15:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2018-12-02 11:15:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-12-02 11:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-12-02 11:15:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2018-12-02 11:15:01 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2018-12-02 11:15:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2018-12-02 11:15:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2018-12-02 11:15:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-12-02 11:15:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-12-02 11:15:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/h2_Make Appointment"), "Make Appointment", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/h2_Make Appointment' are matched.
+
+2018-12-02 11:15:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/h2_Make Appointment' are matched.
+
+2018-12-02 11:15:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-02 11:15:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-02 11:14:43 - [TEST_SUITE][PASSED] - 5. Planning test cases in a test suite: Test Cases/3. Verification in the test case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
