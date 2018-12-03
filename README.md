@@ -1,1 +1,1 @@
-# Katalon Studio Getting Started Sample=
+# Katalon Studio Getting Started Sample
